@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="519.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pcbuilder2.fxControl.ProcesoriusRedaguoti">
+   <children>
+      <TextField fx:id="gamintojasText" layoutX="39.0" layoutY="52.0" />
+      <TextField fx:id="modelisText" layoutX="39.0" layoutY="113.0" />
+      <TextField fx:id="jungtisText" layoutX="39.0" layoutY="170.0" />
+      <TextField fx:id="daznisText" layoutX="39.0" layoutY="229.0" />
+      <TextField fx:id="kainaText" layoutX="39.0" layoutY="280.0" />
+      <Button fx:id="closeButton" layoutX="80.0" layoutY="330.0" mnemonicParsing="false" onAction="#atnaujinti" text="Atnaujinti" />
+      <Text layoutX="39.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modelis" />
+      <Text layoutX="39.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gamintojas" />
+      <Text layoutX="45.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Procesoriaus Jungtis" />
+      <Text layoutX="46.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Procesoriaus Dažnis" />
+      <Text layoutX="39.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kaina" />
+      <Label fx:id="plokste" layoutX="369.0" layoutY="68.0" text="Pagrindine plokšte" />
+      <Label fx:id="ausintuvas" layoutX="369.0" layoutY="26.0" text="Procesoriaus aušintuvas" />
+   </children>
+</AnchorPane>

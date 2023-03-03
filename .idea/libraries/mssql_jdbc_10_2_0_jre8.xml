@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mssql-jdbc-10.2.0.jre8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Intelijj libraries/sqljdbc_10.2/enu/mssql-jdbc-10.2.0.jre8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
